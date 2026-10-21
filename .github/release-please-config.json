@@ -54,7 +54,6 @@
       ],
       "include-component-in-tag": false,
       "package-name": "google-adk",
-      "release-as": "2.13.0",
       "release-type": "python",
       "skip-github-release": true
     }
