@@ -1,61 +1,62 @@
 {
   "$schema": "https://raw.githubusercontent.com/googleapis/release-please/main/schemas/config.json",
+  "last-release-sha": "e9b74d36140f2594b24c481fb7a3825b2cb01e96",
   "packages": {
     ".": {
-      "release-type": "python",
-      "package-name": "google-adk",
-      "include-component-in-tag": false,
-      "skip-github-release": true,
       "changelog-path": "CHANGELOG.md",
       "changelog-sections": [
         {
-          "type": "feat",
-          "section": "Features"
+          "section": "Features",
+          "type": "feat"
         },
         {
-          "type": "fix",
-          "section": "Bug Fixes"
+          "section": "Bug Fixes",
+          "type": "fix"
         },
         {
-          "type": "perf",
-          "section": "Performance Improvements"
+          "section": "Performance Improvements",
+          "type": "perf"
         },
         {
-          "type": "refactor",
+          "hidden": true,
           "section": "Code Refactoring",
-          "hidden": true
+          "type": "refactor"
         },
         {
-          "type": "docs",
-          "section": "Documentation"
+          "section": "Documentation",
+          "type": "docs"
         },
         {
-          "type": "test",
+          "hidden": true,
           "section": "Tests",
-          "hidden": true
+          "type": "test"
         },
         {
-          "type": "build",
+          "hidden": true,
           "section": "Build System",
-          "hidden": true
+          "type": "build"
         },
         {
-          "type": "ci",
+          "hidden": true,
           "section": "CI/CD",
-          "hidden": true
+          "type": "ci"
         },
         {
-          "type": "style",
+          "hidden": true,
           "section": "Styles",
-          "hidden": true
+          "type": "style"
         },
         {
-          "type": "chore",
+          "hidden": true,
           "section": "Miscellaneous Chores",
-          "hidden": true
+          "type": "chore"
         }
-      ]
+      ],
+      "include-component-in-tag": false,
+      "package-name": "google-adk",
+      "release-as": "2.13.0",
+      "release-type": "python",
+      "skip-github-release": true
     }
-  },
-  "last-release-sha": "e9b74d36140f2594b24c481fb7a3825b2cb01e96"
+  }
 }
